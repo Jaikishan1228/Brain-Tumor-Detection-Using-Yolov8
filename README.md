@@ -9,6 +9,21 @@ This project uses the YOLOv8 object detection model to detect brain tumors in me
 
 All code and results are provided in the Jupyter notebook: `YOLOv8_BrainTumor_Training.ipynb`
 
+
+## Model Performance & Metrics
+The YOLOv8 model was custom trained on the BrainTumorYolov8 dataset for brain tumor detection. Below are the key performance metrics from the final epoch:
+
+- **Validation mAP@0.5:** 0.9028
+- **Validation mAP@0.5:0.95:** 0.6903
+- **Validation Precision:** 0.8974
+- **Validation Recall:** 0.8356
+- **Validation Box Loss:** 0.9635
+- **Validation Class Loss:** 0.7529
+- **Validation DFL Loss:** 1.2078
+
+These results indicate that the model achieves high accuracy in detecting and localizing brain tumors across the three classes (glioma, meningioma, pituitary). For detailed training curves and confusion matrices, see the plots in `yolov8_brain_tumor/exp1/`.
+
+
 ## Directory Structure
 ```
 Cancer_Detection/
@@ -88,3 +103,4 @@ You may use, share, or modify this project for educational and research purposes
 **GitHub:** [JaikishanNishad](https://github.com/Jaikishan1228)  
 **Contact:** jaikishannishad33@gmail.com  
 **Date:** 14th September 2025
+
