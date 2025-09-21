@@ -65,6 +65,20 @@ Cancer_Detection/
       └── ...
 ```
 
+# Brain Tumor Detection with YOLOv8
+
+This project uses YOLOv8 to detect brain tumors in medical images. The model has been trained to identify and locate brain tumors with high accuracy.
+
+## 🚀 Try it Live!
+**Want to test the model on your own images?** 
+
+Test the model with your own images using our deployed application:
+
+**[Brain Tumor Detection - Live Demo](https://huggingface.co/spaces/Jaikishan1428/brain_tumor_detection_yolov8)**
+
+Simply upload your brain scan image and get instant detection results!
+
+
 ## How to Use
 1. **Dataset Preparation**
    - The dataset is organized in YOLO format under `BrainTumor/BrainTumorYolov8/` with `train`, `valid`, and `test` splits.
@@ -103,4 +117,5 @@ You may use, share, or modify this project for educational and research purposes
 **GitHub:** [JaikishanNishad](https://github.com/Jaikishan1228)  
 **Contact:** jaikishannishad33@gmail.com  
 **Date:** 14th September 2025
+
 
